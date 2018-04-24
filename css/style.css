@@ -1,12 +1,17 @@
 body {
-	font-family: 'open_sanslight', Arial, sans-serif;letter-spacing: 0;
+	font-family: 'open_sanslight', Arial, sans-serif;
+	letter-spacing: 0;
 	color: #515151;
 	margin: 0 auto;
 	font-size: medium;
 	font-weight: normal;
 }
 
-h1, h2, h4, h5, h6 {
+h1,
+h2,
+h4,
+h5,
+h6 {
 	font-family: 'open_sanslight', Arial, sans-serif;
 	color: #FFFFFF;
 	font-weight: normal;
@@ -44,16 +49,41 @@ p {
 
 /* COLORS */
 
-.orange { color: #F66A27; }
-.orange-light { color: #FD925F; }
-.orange-dark { color: #A33704; }
-.yellow { color: #F1D416; }
-.blue { color: #5D94BD; }
-.blue-dark { color: #215983; }
-.pink { color: #BD5C89; }
-.green { color: #87AD1A; }
-.green-dark { color: #7A9D15; }
+.orange {
+	color: #F66A27;
+}
 
+.orange-light {
+	color: #FD925F;
+}
+
+.orange-dark {
+	color: #A33704;
+}
+
+.yellow {
+	color: #F1D416;
+}
+
+.blue {
+	color: #5D94BD;
+}
+
+.blue-dark {
+	color: #215983;
+}
+
+.pink {
+	color: #BD5C89;
+}
+
+.green {
+	color: #87AD1A;
+}
+
+.green-dark {
+	color: #7A9D15;
+}
 
 /* MENU */
 
@@ -66,11 +96,13 @@ p {
 	padding: 10px 10px 10px 12px;
 }
 
-.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section li:not(.has-form) a:not(.button):hover {
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section ul li:hover:not(.has-form)>a,
+.top-bar-section li:not(.has-form) a:not(.button):hover {
 	background: #F66A27;
 }
 
-.top-bar-section ul li:hover:not(.has-form) > a.btn {
+.top-bar-section ul li:hover:not(.has-form)>a.btn {
 	color: #F66A27;
 }
 
@@ -79,30 +111,30 @@ p {
 }
 
 .top-bar-section ul li {
-    background: #F66A27;
-    padding: 0 10px;
+	background: #F66A27;
+	padding: 0 10px;
 }
 
-.top-bar-section ul li > a {
+.top-bar-section ul li>a {
 	font-family: 'open_sanslight', Arial, sans-serif;
 	font-size: .85em;
 	text-transform: uppercase;
 }
 
-.top-bar-section ul li > a.btn {
+.top-bar-section ul li>a.btn {
 	background-color: #fff !important;
 	border-radius: 3px 3px 3px 3px;
 	color: #F66A27;
 	padding: 0 1.5em !important;
 }
 
-.top-bar-section ul li > a.btn:hover {
+.top-bar-section ul li>a.btn:hover {
 	background-color: #fff !important;
 	color: #F66A27;
 	padding: 0 1.5em;
 }
 
-.top-bar-section ul li > a.active {
+.top-bar-section ul li>a.active {
 	color: #A33704;
 	font-family: 'open_sansbold', Arial, sans-serif;
 }
@@ -117,22 +149,22 @@ p {
 
 .home-slider h1 {
 	background-color: #BD5C89;
-    font-family: 'open_sanslight', Arial, sans-serif;
-    font-size: 2em;
-    text-align: left;
-    position: absolute;
-    top: 6em;
-    padding: 0.4em 0.7em;
+	font-family: 'open_sanslight', Arial, sans-serif;
+	font-size: 2em;
+	text-align: left;
+	position: absolute;
+	top: 6em;
+	padding: 0.4em 0.7em;
 }
 
 .home-slider h2 {
 	background-color: #5D94BD;
-    font-family: 'open_sanslight', Arial, sans-serif;
-    font-size: 1.1em;
-    position: absolute;
-    top: 15.3em;
-    text-align: left;
-    padding: 0.8em 1.4em;
+	font-family: 'open_sanslight', Arial, sans-serif;
+	font-size: 1.1em;
+	position: absolute;
+	top: 15.3em;
+	text-align: left;
+	padding: 0.8em 1.4em;
 }
 
 .line {
@@ -149,7 +181,8 @@ p {
 	padding: 3em 0;
 }
 
-.small-content p, .content p {
+.small-content p,
+.content p {
 	text-align: center;
 	font-size: 1.05em;
 }
@@ -190,12 +223,15 @@ p {
 
 .drops .button {
 	background-color: #87AD1A;
-    border-color: #87AD1A;
+	border-color: #87AD1A;
 }
 
-.drops button:hover, .drops button:focus, .drops .button:hover, .drops .button:focus {
+.drops button:hover,
+.drops button:focus,
+.drops .button:hover,
+.drops .button:focus {
 	background-color: #7A9D15;
-    border-color: #7A9D15;
+	border-color: #7A9D15;
 }
 
 .visita {
@@ -218,9 +254,12 @@ p {
 	background-color: #215983;
 }
 
-.visita button:hover, .visita button:focus, .visita .button:hover, .visita .button:focus {
+.visita button:hover,
+.visita button:focus,
+.visita .button:hover,
+.visita .button:focus {
 	background-color: #215983;
-    border-color: #215983;
+	border-color: #215983;
 }
 
 .visita-inner {
@@ -245,9 +284,12 @@ p {
 	background-color: #BD5C89;
 }
 
-.participe button:hover, .participe button:focus, .participe .button:hover, .participe .button:focus {
+.participe button:hover,
+.participe button:focus,
+.participe .button:hover,
+.participe .button:focus {
 	background-color: #BD5C89;
-    border-color: #BD5C89;
+	border-color: #BD5C89;
 }
 
 .footer {
@@ -260,7 +302,8 @@ p {
 	padding: 1.65em 1em 0.85em 1em;
 }
 
-.logo-footer, .endereco {
+.logo-footer,
+.endereco {
 	display: inline-block;
 	position: relative;
 }
@@ -272,18 +315,18 @@ p {
 
 .footer ul {
 	border-bottom: solid 1px #FFAC84;
-    padding-bottom: .4em;
-    margin-bottom: .4em;
+	padding-bottom: .4em;
+	margin-bottom: .4em;
 }
 
 .footer ul li {
 	display: inline;
 	list-style-type: none;
-	padding: 0 .8em;
+	padding: 0 0;
 }
 
 .footer ul li:last-child {
-	padding: 0 0 0 .8em;
+	padding: 0 0 0 0;
 }
 
 .footer ul li a {
@@ -314,17 +357,18 @@ p {
 }
 
 span.anchor {
-	margin-top: -180px;        /* Size of fixed header */
-	padding-bottom: 180px; 
-	display: block; 
+	margin-top: -180px;
+	/* Size of fixed header */
+	padding-bottom: 180px;
+	display: block;
 }
 
 span.anchor-help {
-	margin-top: -100px;        /* Size of fixed header */
-	padding-bottom: 100px; 
-	display: inline-block; 
+	margin-top: -100px;
+	/* Size of fixed header */
+	padding-bottom: 100px;
+	display: inline-block;
 }
-
 
 /* QUEM SOMOS */
 
@@ -338,7 +382,6 @@ span.anchor-help {
 	color: #BD5C89;
 	padding-bottom: .8em;
 }
-
 
 .quem-somos-projetos {
 	background: url("../img/quem-somos-projetos.png") no-repeat center center;
@@ -361,9 +404,12 @@ span.anchor-help {
 	background-color: #215983;
 }
 
-.quem-somos-projetos button:hover, .quem-somos-projetos button:focus, .quem-somos-projetos .button:hover, .quem-somos-projetos .button:focus {
+.quem-somos-projetos button:hover,
+.quem-somos-projetos button:focus,
+.quem-somos-projetos .button:hover,
+.quem-somos-projetos .button:focus {
 	background-color: #215983;
-    border-color: #215983;
+	border-color: #215983;
 }
 
 .quem-somos-projetos-inner {
@@ -431,7 +477,6 @@ span.anchor-help {
 	margin-bottom: 3em;
 }
 
-
 /* PONTO DE CULTURA */
 
 .pdc-home {
@@ -447,8 +492,8 @@ span.anchor-help {
 	position: absolute;
 	width: 100%;
 	transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
 }
 
 .top-bar.pdc-menu.expanded {
@@ -476,7 +521,9 @@ span.anchor-help {
 	font-family: 'open_sansbold', Arial, sans-serif;
 }
 
-.pdc-menu-section li:not(.has-form) a:not(.button), .pdc-menu-section ul li:hover:not(.has-form) > a, .pdc-menu-section li:not(.has-form) a:not(.button):hover {
+.pdc-menu-section li:not(.has-form) a:not(.button),
+.pdc-menu-section ul li:hover:not(.has-form)>a,
+.pdc-menu-section li:not(.has-form) a:not(.button):hover {
 	background: none;
 }
 
@@ -510,7 +557,8 @@ span.anchor-help {
 	border-radius: 4px 4px 4px 4px;
 }
 
-.date, .event {
+.date,
+.event {
 	display: inline-block;
 }
 
@@ -520,20 +568,21 @@ span.anchor-help {
 	float: left;
 }
 
-.agenda .date span, .agenda .event span {
+.agenda .date span,
+.agenda .event span {
 	display: block;
 }
 
 .agenda .date .month {
 	font-family: 'open_sanslight', Arial, sans-serif;
 	font-size: 1em;
-    line-height: 1.8em;
+	line-height: 1.8em;
 }
 
 .agenda .date .day {
 	font-family: 'open_sansbold', Arial, sans-serif;
 	font-size: 2em;
-    line-height: 0.8em;
+	line-height: 0.8em;
 }
 
 .agenda .event {
@@ -549,16 +598,12 @@ span.anchor-help {
 .agenda .event .event-title {
 	font-family: 'open_sansbold', Arial, sans-serif;
 	font-size: 1em;
-    line-height: 2em;
+	line-height: 2em;
 }
 
 .agenda .event .event-cat {
 	font-size: 1em;
-    line-height: 0.6em;
-}
-
-.agenda-list {
-	padding: 
+	line-height: 0.6em;
 }
 
 .agenda-item-wrap {
@@ -587,7 +632,6 @@ span.anchor-help {
 	color: #BD5C89;
 	padding-top: .5em;
 }
-
 
 /* PROJETOS */
 
@@ -621,7 +665,10 @@ span.anchor-help {
 	color: #FFFFFF;
 }
 
-button.green:hover, button.green:focus, .button.green:hover, .button.green:focus {
+button.green:hover,
+button.green:focus,
+.button.green:hover,
+.button.green:focus {
 	background-color: #7A9D15;
 }
 
@@ -630,17 +677,22 @@ button.green:hover, button.green:focus, .button.green:hover, .button.green:focus
 	color: #FFFFFF;
 }
 
-button.pink:hover, button.pink:focus, .button.pink:hover, .button.pink:focus {
+button.pink:hover,
+button.pink:focus,
+.button.pink:hover,
+.button.pink:focus {
 	background-color: #77284C;
 }
-
 
 .button.blue {
 	background-color: #5D94BD;
 	color: #FFFFFF;
 }
 
-button.blue:hover, button.blue:focus, .button.blue:hover, .button.blue:focus {
+button.blue:hover,
+button.blue:focus,
+.button.blue:hover,
+.button.blue:focus {
 	background-color: #215983;
 }
 
@@ -649,10 +701,12 @@ button.blue:hover, button.blue:focus, .button.blue:hover, .button.blue:focus {
 	color: #FFFFFF;
 }
 
-button.blue-dark:hover, button.blue-dark:focus, .button.blue-dark:hover, .button.blue-dark:focus {
+button.blue-dark:hover,
+button.blue-dark:focus,
+.button.blue-dark:hover,
+.button.blue-dark:focus {
 	background-color: #154568;
 }
-
 
 /* COMO AJUDAR */
 
@@ -767,62 +821,49 @@ button.blue-dark:hover, button.blue-dark:focus, .button.blue-dark:hover, .button
 	padding-bottom: 1em;
 }
 
-
-
 /* MEDIA QUERIES */
 
-
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (max-width: 40em){
+
+@media only screen and (max-width: 40em) {
 	.top-bar .title-area {
 		height: 90px;
 	}
-
 	.top-bar.expanded .title-area {
 		background: #A33704;
 	}
-
 	.top-bar.expanded .toggle-topbar a {
 		color: #FFFFFF;
 	}
-
 	.top-bar.expanded .toggle-topbar a span::after {
 		box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
 	}
-
 	.top-bar .name h1 a {
 		width: 56%;
 	}
-
 	.top-bar-section ul {
 		padding: 0 0 20px 0;
 	}
-
 	.top-bar-section ul li {
 		padding: 0;
 	}
-
 	.top-bar-section ul li:last-child {
 		padding-bottom: 15px;
 	}
-
-	.top-bar-section ul li > a.btn {
+	.top-bar-section ul li>a.btn {
 		background-color: #F66A27 !important;
-	    border-radius: 3px 3px 3px 3px;
-	    color: #fff;
-	    padding: 12px 0 12px 0.9375rem !important;
-	    margin: 0;
+		border-radius: 3px 3px 3px 3px;
+		color: #fff;
+		padding: 12px 0 12px 0.9375rem !important;
+		margin: 0;
 	}
-
-	.top-bar-section ul li > a.btn:hover {
+	.top-bar-section ul li>a.btn:hover {
 		background-color: #F66A27 !important;
-	    color: #FFFFFF !important;
+		color: #FFFFFF !important;
 	}
-
 	.drops .drop {
 		padding-bottom: 3em;
 	}
-
 	.home-slider h1 {
 		width: 100%;
 		text-align: center;
@@ -830,7 +871,6 @@ button.blue-dark:hover, button.blue-dark:focus, .button.blue-dark:hover, .button
 		top: 11.3em;
 		opacity: .9;
 	}
-
 	.home-slider h2 {
 		width: 100%;
 		text-align: center;
@@ -838,144 +878,118 @@ button.blue-dark:hover, button.blue-dark:focus, .button.blue-dark:hover, .button
 		top: 20em;
 		opacity: .9;
 	}
-
 	.visita-inner {
 		padding-top: 2.5em;
 	}
-
 	.visita p {
 		font-size: .85em;
 	}
-
 	.quem-somos-projetos p {
 		font-size: .85em;
 	}
-
 	.footer ul {
 		margin-left: 0;
 		text-align: center;
 		float: none !important;
 	}
-
 	.footer ul.footer-social-media {
 		text-align: center;
 		float: none !important;
 	}
-
 	.top-bar.pdc-menu {
 		background: #5D94BD;
 	}
-
 	.agenda-item-wrap {
 		padding-top: .5em;
 	}
-
 	.agenda-item {
-	    text-align: center;
-	    padding: 1em 0;
+		text-align: center;
+		padding: 1em 0;
 	}
-
 	.project-info {
 		text-align: center;
 	}
-
 	.project p {
 		text-align: center;
 	}
-
 	.project p.title {
 		font-family: 'open_sansbold', Arial, sans-serif;
 		margin-bottom: .3em;
 		padding-top: 1em;
 	}
-
 	.project p.about {
 		font-size: 1em;
 	}
 }
 
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 	.top-bar .title-area {
 		padding-top: .7em;
 	}
-
 	.top-bar-section {
 		padding-top: .7em;
 	}
-
 	.top-bar-section ul li {
-	    padding: 0 2px;
-	    font-size: 0.5em;
+		padding: 0 2px;
+		font-size: 0.5em;
 	}
-
 	.top-bar .name h1 a img {
 		width: 120px;
 	}
-
-	.top-bar-section ul li > a {
-	    font-size: 1.05em;
+	.top-bar-section ul li>a {
+		font-size: 1.05em;
 	}
-	.top-bar-section ul li > a.btn {
-	    padding: 0 1.4em !important;
+	.top-bar-section ul li>a.btn {
+		padding: 0 1.4em !important;
 	}
-
 	.top-bar-section li:not(.has-form) a:not(.button) {
 		line-height: 3.2em;
 		padding: 0 0.7em;
 	}
-
 	.visita p {
 		font-size: 1em;
 	}
-
 	.footer ul li {
-		padding: 0. 4em;
+		padding: 0 0;
 	}
-
 	.endereco p {
 		font-size: .7em;
 	}
-
 	.agenda .event .event-title {
-	    font-family: 'open_sansbold', Arial, sans-serif;
-	    font-size: 0.9em;
-	    line-height: 1.2em;
+		font-family: 'open_sansbold', Arial, sans-serif;
+		font-size: 0.9em;
+		line-height: 1.2em;
 	}
-
 	.agenda .event .event-cat {
-	    font-size: 0.9em;
-	    line-height: 1.6em;
+		font-size: 0.9em;
+		line-height: 1.6em;
 	}
-
-	.agenda .date span, .agenda .event span {
-	    display: inline-block;
-	    text-align: center;
+	.agenda .date span,
+	.agenda .event span {
+		display: inline-block;
+		text-align: center;
 	}
-
-	.agenda .date .month, .agenda .date .day {
+	.agenda .date .month,
+	.agenda .date .day {
 		font-size: 1em;
 	}
-
 	.agenda .date {
 		float: none;
 	}
-
 	.agenda .event {
 		padding-left: 0;
 		text-align: center;
 	}
-
 }
 
 /* min-width 641px and max-width 1280px, use when QAing tablet-only issues */
-@media only screen and (min-width: 64em) and (max-width: 80em) {
 
+@media only screen and (min-width: 64em) and (max-width: 80em) {
 	.top-bar-section ul li {
 		padding: 0 6px;
 	}
-
 	.top-bar-section li:not(.has-form) a:not(.button) {
 		padding: 0 0.4em;
 	}
